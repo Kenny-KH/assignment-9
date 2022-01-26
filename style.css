@@ -7,8 +7,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  width: 417px;
-  height: 884px;
+  width: 415px;
+  height: 880px;
   border: 5px solid teal;
 }
 
@@ -51,7 +51,7 @@ body {
 .current-song__title {
   font-size: 40px;
   font-weight: 800;
-  display: block;
+  display: flex;
   margin-left: 20px;
 }
 
@@ -107,4 +107,132 @@ body {
   border: 2px solid black;
   border-bottom: 4px solid black;
   border-radius: 50%;
+}
+
+.playlist__song1 {
+  display: flex;
+  width: 300px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.playlist__song-logo__tomato {
+  height: 55px;
+  width: 55px;
+  background-color: tomato;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.playlist__box1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.playlist__title1 {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.playlist__singer1 {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.playlist__song2 {
+  display: flex;
+  width: 300px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.playlist__song-logo__pink {
+  height: 55px;
+  width: 55px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.playlist__box2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.playlist__title2 {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.playlist__singer2 {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.playlist__song3 {
+  display: flex;
+  width: 300px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.playlist__song-logo__blue {
+  height: 55px;
+  width: 55px;
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.playlist__box3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.playlist__title3 {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.playlist__singer3 {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.playlist__song4 {
+  display: flex;
+  width: 300px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.playlist__song-logo__teal {
+  height: 55px;
+  width: 55px;
+  background-color: teal;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.playlist__box4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.playlist__title4 {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.playlist__singer4 {
+  margin-left: 15px;
+  font-size: 15px;
 }
